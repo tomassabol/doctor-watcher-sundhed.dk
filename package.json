@@ -1,0 +1,26 @@
+{
+  "name": "doctor-watcher",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@aws-sdk/client-sns": "^3.1161.0",
+    "@types/aws-lambda": "^8.10.164",
+    "@types/bun": "^1.4.4",
+    "aws-cdk": "^2.1147.0",
+    "esbuild": "^0.28.2"
+  },
+  "peerDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.275.0",
+    "constructs": "^10.8.1"
+  },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
+    "diff": "cdk diff"
+  }
+}

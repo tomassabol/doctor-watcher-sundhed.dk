@@ -1,0 +1,4 @@
+{
+  "app": "bun bin/app.ts",
+  "watch": { "include": ["bin/**", "lib/**", "src/**"] }
+}
